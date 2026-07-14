@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+httpx
+redis[asyncio]
+structlog
+python-multipart
