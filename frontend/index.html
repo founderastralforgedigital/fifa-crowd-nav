@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      WCAG SC 1.4.4 — Resize Text:
+      DO NOT use user-scalable=no. Fans may need to zoom to read at stadium.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>FIFA 2026 Fan Navigator — Crowd-Safe Stadium Navigation</title>
+    <meta
+      name="description"
+      content="Real-time crowd flow and multilingual navigation for FIFA World Cup 2026 stadiums across USA, Canada, and Mexico. GenAI-powered, accessible."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (social sharing) -->
+    <meta property="og:title" content="FIFA 2026 Fan Navigator" />
+    <meta property="og:description" content="Navigate FIFA 2026 stadiums safely with real-time crowd data and AI-powered multilingual directions." />
+    <meta property="og:type" content="website" />
+
+    <!-- PWA / App icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+
+    <!-- Preload Inter font for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <!--
+      The #root element is the React mount point.
+      Screen readers will read the app landmark structure from React output.
+    -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

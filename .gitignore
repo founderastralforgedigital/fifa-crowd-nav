@@ -1,0 +1,67 @@
+# ============================================================
+# FIFA 2026 Crowd Navigation — .gitignore
+# ============================================================
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ── Secrets — NEVER commit these ─────────────────────────────
+.env
+*.pem          # Private/public keys
+keys/          # JWT key directory
+*.key
+*.crt
+*.p12
+
+# ── Testing & Coverage ────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+nosetests.xml
+
+# ── Node / Frontend ───────────────────────────────────────────
+node_modules/
+dist/
+.next/
+.cache/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ── IDEs & Editors ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Docker ────────────────────────────────────────────────────
+*.log
+
+# ── Database ──────────────────────────────────────────────────
+*.db
+*.sqlite3
+dev.db
+
+# ── Misc ──────────────────────────────────────────────────────
+*.bak
+*.tmp
